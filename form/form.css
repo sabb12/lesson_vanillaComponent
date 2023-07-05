@@ -1,0 +1,47 @@
+.wrapper{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+}
+
+.innerWrapper{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 350px;
+    margin-top: 13px;
+}
+
+.marginTop{
+    margin-top: 13px;
+}
+
+.inputWrapper{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+.radioWrapper{
+    display: grid;
+    grid-template-columns: 150px 170px;
+    gap: 13px;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+
+.categoryTitleContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+    margin-top: 13px;
+}
+
+.grid-row{
+    /* border: 1px solid red; */
+    margin-top: 13px;
+    display: grid;
+}
